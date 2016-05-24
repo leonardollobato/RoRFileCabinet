@@ -1,3 +1,19 @@
-%h1 Voila! This is the Placeholder!
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your Life's Work. Organized, always.
+    %button= link_to 'Enter', new_user_registration_path
 
-= link_to 'LogOut', destroy_user_session_path, method: :delete
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p Narwhal cornhole yuccie messenger bag. Photo booth tousled skateboard helvetica, PBR&B narwhal ennui fixie fashion axe ramps kickstarter polaroid. Typewriter yuccie fap, messenger bag vinyl banjo neutra thundercats normcore celiac bicycle rights you probably haven't heard of them twee hoodie. Tote bag four loko butcher, literally church-key tilde fanny pack swag. Jean shorts migas mumblecore, health goth hoodie twee pabst man braid YOLO farm-to-table lo-fi yuccie seitan salvia
+
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to 'Join Now', new_user_registration_path
